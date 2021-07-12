@@ -29,7 +29,8 @@ body{
     width: 50px;
 
 }
-.section-layout{
+/* top---layout */
+.top-layout{
     margin: auto;
     background-color: white;
     padding: 30px;
@@ -87,4 +88,25 @@ h2{
 span{
     margin-left: 10px;
     color: gray;
+}
+/* bottom---layout */
+.bottom-layout{
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5PX;
+    width: 870px;
+    height: 360px;
+}
+.course-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course-layout img{
+    width: 220px;
+    height: 100px;
+}
+.course-layout a{
+    text-decoration: none;
+    color: orangered;
 }

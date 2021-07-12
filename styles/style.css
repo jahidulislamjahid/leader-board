@@ -14,7 +14,7 @@ body{
 }
 .navigation-items{
     display: flex;
-    align-items:center ;
+    align-items:center;
     padding: 15px;
     margin: auto;
 }
@@ -109,4 +109,34 @@ span{
 .course-layout a{
     text-decoration: none;
     color: orangered;
+}
+/* responsive */
+@media only screen and (max-width:688px) {
+    .navigation{
+        width: 100%;
+    }
+    .navigation-items{
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+    }
+    .top-layout{
+        width: 100%;
+        height: auto;
+    }
+    .top-player{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blogs{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .top-blogs{
+        display: flex;
+    }
+    .bottom-layout{
+        display: none;
+    }
 }

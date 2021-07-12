@@ -61,3 +61,30 @@ h1{
     text-align: center;
     margin-left: 15px;
 }
+/* top-blog-section */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.top-blogs{
+    display: inline-flex;
+    padding: 20px;
+}
+.top-blogs img{
+    width: 177px;
+    height: 117px;
+}
+h2{
+    margin: 10px;
+}
+.top-blogs a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #562EFF;
+}
+span{
+    margin-left: 10px;
+    color: gray;
+}

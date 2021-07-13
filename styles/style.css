@@ -110,7 +110,7 @@ span{
     text-decoration: none;
     color: orangered;
 }
-/* responsive */
+/* optimization-for-phone */
 @media only screen and (max-width:688px) {
     .navigation{
         width: 100%;
@@ -143,7 +143,7 @@ span{
     .bottom-layout{
         width: 100%;
         height: auto;
-        padding: 0;
+        padding: 0 0 0 20px;
     }
     .course-layout{
         display: grid;
@@ -154,3 +154,4 @@ span{
         margin-top: 20px;
     }
 }
+/* optimization-for-tablet */

@@ -123,6 +123,7 @@ span{
     .top-layout{
         width: 100%;
         height: auto;
+        padding: 0;
     }
     .top-player{
         display: grid;
@@ -135,6 +136,9 @@ span{
     }
     .top-blogs{
         display: flex;
+    }
+    .top-blogs a{
+        margin: 0;
     }
     .bottom-layout{
         display: none;
